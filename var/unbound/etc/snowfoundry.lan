@@ -1,0 +1,13 @@
+$ORIGIN snowfoundry.lan. ;
+$TTL 86400 ;
+@ IN SOA host1.snowfoundry.lan. sjharms.gmail.com. (
+        202001311 ; serial
+        3600 ; refresh
+        600 ; retry
+        604800 ; expire
+        1800 ; min ttl
+)
+	NS host1.snowfoundry.lan.
+
+host1 IN A 10.0.0.1
+host2 IN A 10.0.0.2

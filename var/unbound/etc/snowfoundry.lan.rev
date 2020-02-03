@@ -1,0 +1,14 @@
+$TTL 86400 ;
+$ORIGIN 0.0.10.in-addr.arpa.;
+
+@ IN SOA host1.snowfoundry.lan. sjharms.gmail.com. (
+	201902019 ;
+	3600 ;
+	600 ;
+	604800 ;
+	1800 ;
+) 
+IN NS host1.snowfoundry.lan.
+
+1 IN PTR host1.snowfoundry.lan.
+2 IN PTR host2.snowfoundry.lan.
